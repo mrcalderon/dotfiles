@@ -1,5 +1,6 @@
 # dotfiles
 
 ## Install
-Running this will install the dotfiles to your home directory.
-`make`
+The following command will copy the dotfiles to your $HOME directory.
+
+```make```
