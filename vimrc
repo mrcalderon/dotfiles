@@ -7,9 +7,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
-" Show cursor column
 set cursorcolumn
 set number
+syntax on
 
 " Set map leader
 let mapleader = ","
@@ -33,13 +33,13 @@ call plug#begin('~/.vim/plugged')
 Plug 'itchyny/lightline.vim'
 call plug#end()
 
-" Install Plugins on fresh install
+" Install plugins on fresh install
 if filereadable(expand("~/.vim/plug_new_install"))
     PlugInstall
     silent !rm ~/.vim/plug_new_install
     q
 endif
 
-" Lightline settings
+" Lightline plugin settings
 set laststatus=2    " Show statusline
 set noshowmode      " Hide redundant "INSERT" mode
