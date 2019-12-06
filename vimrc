@@ -43,3 +43,11 @@ endif
 " Lightline plugin settings
 set laststatus=2    " Show statusline
 set noshowmode      " Hide redundant "INSERT" mode
+
+" Macros
+" 'quote' a word by typing (qw)
+nnoremap qw :silent! normal mpea'<Esc>bi'<Esc>`pl
+" double "quote" a word (qd)
+nnoremap qd :silent! normal mpea"<Esc>bi"<Esc>`pl
+" remove quotes from a word (wq)
+nnoremap wq :silent! normal mpeld bhd `ph<CR>
