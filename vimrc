@@ -1,6 +1,5 @@
-""""""""""""""""""
-" Miguel's vimrc "
-""""""""""""""""""
+" vimrc
+" Author: @mrcalderon
 
 " Tabs -> Spaces
 set tabstop=2

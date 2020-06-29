@@ -1,0 +1,13 @@
+# .gitignore
+# Author: @mrcalderon
+
+# Global
+*.swp
+
+# macOS
+.DS_Store
+
+# Python, PyCharm development
+.idea/
+__pycache__/
+pyenv/
